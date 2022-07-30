@@ -3,3 +3,8 @@
 // add - add class
 // remove - remove class
 // toggle - toggles class
+
+const link = document.getElementsByClassName('.link');
+const fas = document.addEventListener('click', function() {
+    
+})

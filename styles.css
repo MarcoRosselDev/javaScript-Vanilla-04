@@ -68,7 +68,7 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
+  background: var(--clr-primary-1);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -157,7 +157,7 @@ Navbar
 ===============
 */
 nav {
-  background: var(--clr-white);
+  background: var(--clr-grey-8);
   box-shadow: var(--light-shadow);
 }
 .nav-header {
@@ -168,7 +168,7 @@ nav {
 }
 .nav-toggle {
   font-size: 1.5rem;
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-1);
   background: transparent;
   border-color: transparent;
   transition: var(--transition);
@@ -199,9 +199,9 @@ nav {
   display: none;
 }
 .links {
-  /* height: 0;
+  height: 0;
   overflow: hidden;
-  transition: var(--transition); */
+  transition: var(--transition);
 }
 .show-links {
   height: 10rem;
