@@ -222,6 +222,7 @@ nav {
     display: none;
   }
   .links {
+    /* importante de agregar por que sino se desconfigura todo */
     height: auto;
     display: flex;
   }
