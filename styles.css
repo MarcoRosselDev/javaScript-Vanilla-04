@@ -3,7 +3,7 @@
 Fonts
 ===============
 */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
 /*
 =============== 
@@ -43,8 +43,8 @@ Variables
   --clr-green-dark: hsl(125, 67%, 44%);
   --clr-green-light: hsl(125, 71%, 66%);
   --clr-black: #222;
-  --ff-primary: 'Roboto', sans-serif;
-  --ff-secondary: 'Open Sans', sans-serif;
+  --ff-primary: "Roboto", sans-serif;
+  --ff-secondary: "Open Sans", sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.1rem;
   --radius: 0.25rem;
@@ -68,7 +68,7 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background: var(--clr-primary-1);
+  background: var(--clr-grey-10);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -157,7 +157,7 @@ Navbar
 ===============
 */
 nav {
-  background: var(--clr-grey-8);
+  background: var(--clr-white);
   box-shadow: var(--light-shadow);
 }
 .nav-header {
@@ -168,7 +168,7 @@ nav {
 }
 .nav-toggle {
   font-size: 1.5rem;
-  color: var(--clr-primary-1);
+  color: var(--clr-primary-5);
   background: transparent;
   border-color: transparent;
   transition: var(--transition);
@@ -222,7 +222,6 @@ nav {
     display: none;
   }
   .links {
-    /* importante de agregar por que sino se desconfigura todo */
     height: auto;
     display: flex;
   }
